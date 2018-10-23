@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Titanic D3 Scroll Example</title>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/titanic.css"/>
+</head>
+<body>
+<div class="container">
+  <div id='graphic'>
+    <div id='sections'>
+      <section class="step">
+        <div class="title">Titanic Scrolling D3 Visualisation</div>
+         A short demo of a scrolling data story using the Kaggle Titanic Data source - SCROLL TO START<br/><br/>
+      </section>
+      <section class="step">
+        <div class="title">HMS Titanic</div>
+        On the 10th April HMS Titanic started on her journey from Southampton.  There were 891* passengers on board. <br><br>
+        <div class="note">* There were actually approx. 1317 passengers on board but this is the total in the data.</div>
+      </section>
+      <section class="step">
+        <div class="title">Passenger Gender</div>
+        There were more men than women on board.
+      </section>
+      <section class="step">
+        <div class="title">Passenger Age</div>
+        Age ranged from 5 months to 80 years but the majority were aged between 15 and 45 years old.
+      </section>
+      <section class="step">
+        <div class="title">Passenger Class</div>
+        There was a much larger proportion of passengers in 3rd class but 1st and 2nd class numbers were similar.
+      </section>
+      <section class="step">
+        <div class="title">Tragedy</div>
+        Only 342 passengers survived - that's 38%.<br><br>Who had the best chances?
+      </section>
+      <section class="step">
+        <div class="title">Passenger Gender</div>
+        Women definitely had better odds than men.
+      </section>
+      <section class="step">
+        <div class="title">Passenger Age</div>
+        Age isn't so significant but under 15's had the highest survival rate with 15-30s and over 70s had the lowest.
+      </section>
+      <section class="step">
+        <div class="title">Passenger Class</div>
+        Passengers in 3rd class had a significantly lower survival rate than those in 1st and 2nd class.
+      </section>
+      <section class="step">
+        <div class="title">1st and 2nd Class Children</div>
+        And 1st and 2nd Class children (under 15) had the highest survival rate of them all.
+      </section>
+      <section class="step">
+        <div class="title">Conclusion</div>
+       Women and Children travelling in 1st and 2nd class had an amazing 95% of survival.<br><br>
+       A long standing myth visually proven - thanks in the most part to the wonderful <a href='http://vallandingham.me/scroller.html'>Jim Vallandingham</a>.  For more info, see my Medium article.
+      </section>
+    </div>
+    <div id='vis'>
+    </div>
+    <div id="extra-space">
+    </div>
+  </div>
+</div>
+
+
+<script src="js/scroller.js"></script>
+<script src="js/sections.js"></script>
+</body>
+</html>

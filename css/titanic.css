@@ -1,0 +1,73 @@
+
+.container {
+  width: 890px;
+}
+
+#graphic {
+  padding-top: 60px;
+}
+
+.x_axis path, .x_axis line{
+  display: none;
+}
+
+.x_axis text {
+  font-size: 16px;
+}
+
+.bar_text {
+  font-size: 30px; 
+  text-anchor: middle;
+}
+
+.note {
+  font-size: 10px;
+  font-style: italic;
+  line-height: 12px;
+}
+
+#sections {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  top: 0px;
+  z-index: 90;
+  padding-bottom: 200px;
+}
+
+.step {
+  margin-bottom: 200px;
+  font-family: "TiemposTextWeb-Regular","Georgia";
+  font-size: 16px;
+  line-height: 23px;
+  color: #767678;
+}
+
+#sections .title {
+  font-family: Arial,Helvetica,"san-serif";
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: #262626;
+  line-height: 1.2em;
+}
+
+#extra-space {
+  height: 300px;
+}
+
+#vis {
+  display: inline-block;
+  position: fixed;
+  top: 60px;
+  z-index: 1;
+  margin-left: 0;
+  /* height: 600px; */
+  /* width: 600px; */
+  /* background-color: #ddd; */
+}
+
+.highlight {
+  fill: #008080;
+  font-weight: bold;
+}
